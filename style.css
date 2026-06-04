@@ -113,15 +113,17 @@ body {
 }
 
 .hero-img-col{
-  height:420px;
-  overflow:hidden;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
 }
 
 .hero-img-col img{
   width:100%;
-  height:100%;
+  max-width:500px;
+  height:auto;
   object-fit:contain;
-  object-position:center;
 }
 /* ================= PRODUCTS ================= */
 

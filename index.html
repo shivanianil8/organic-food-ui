@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Orgamic – Healthy Organic Food</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+
+    <a class="navbar-brand" href="#">
+      Orgamic
+    </a>
+
+    <button
+      class="navbar-toggler border-0"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navMenu"
+      aria-controls="navMenu"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+
+      <a href="#" class="btn-signup nav-link">Sign Up</a>
+
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="container-fluid px-0">
+    <div class="row g-0 align-items-stretch">
+
+      <div class="col-lg-5 col-md-6">
+        <div class="hero-text">
+          <h1>
+            Healthy<br>
+            Organic<br>
+            Food
+          </h1>
+          <p>
+            Fresh from the farm to your table — no preservatives,
+            no compromises. Discover nature's finest produce
+            delivered straight to your door.
+          </p>
+          <a href="#products" class="btn-hero">Order Now</a>
+        </div>
+      </div>
+
+      <div class="col-lg-7 col-md-6 hero-img-col">
+        <img
+          src="images/hero.png"
+          alt="Fresh organic vegetables and herbs">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products-section" id="products">
+  <div class="container">
+
+    <h2 class="section-title">Our Products</h2>
+
+    <div class="row g-4">
+
+      <!-- Cherry Tomatoes -->
+      <div class="col-6 col-md-3">
+        <div class="product-card">
+          <img src="images/tomato.png" alt="Cherry Tomatoes">
+          <div class="product-card-body">
+            <h6>Cherry Tomatoes</h6>
+            <div class="product-price">₹120</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Raw Honey -->
+      <div class="col-6 col-md-3">
+        <div class="product-card">
+          <img src="images/honey.png" alt="Raw Honey">
+          <div class="product-card-body">
+            <h6>Raw Honey</h6>
+            <div class="product-price">₹350</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fresh Broccoli -->
+      <div class="col-6 col-md-3">
+        <div class="product-card">
+          <img src="images/broccoli.png" alt="Fresh Broccoli">
+          <div class="product-card-body">
+            <h6>Fresh Broccoli</h6>
+            <div class="product-price">₹180</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mixed Nuts -->
+      <div class="col-6 col-md-3">
+        <div class="product-card">
+          <img src="images/nuts.png" alt="Mixed Nuts">
+          <div class="product-card-body">
+            <h6>Mixed Nuts</h6>
+            <div class="product-price">₹250</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROMO SECTION -->
+<section class="promo-section">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- LEFT – Organic Vegetables -->
+      <div class="col-md-6">
+        <div class="promo-card promo-veg">
+          <div class="promo-text">
+            <h3>Organic<br>Vegetables</h3>
+            <a href="#" class="btn-promo">Find Yours</a>
+          </div>
+          <img
+            class="promo-img"
+            src="images/avocado.png"
+            alt="Fresh avocado">
+        </div>
+      </div>
+
+      <!-- RIGHT – Natural & Healthy -->
+      <div class="col-md-6">
+        <div class="promo-card promo-natural">
+          <div class="promo-text">
+            <h3>Natural<br>&amp; Healthy</h3>
+            <p>
+              Nourish your body with farm-fresh goodness —
+              no additives, just pure nature at its best.
+            </p>
+          </div>
+          <img
+            class="promo-img"
+            src="images/grains.png"
+            alt="Natural grains and seeds">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

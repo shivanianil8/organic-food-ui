@@ -65,19 +65,17 @@ body {
 }
 
 /* ================= HERO ================= */
-/* ================= HERO ================= */
-
 .hero{
     background: var(--green-hero);
 }
 
 .hero .row{
-    min-height: 320px;
+    min-height: 420px;
 }
 
 .hero-text{
-    min-height: 320px;
-    padding: 30px 40px;
+    min-height: 420px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,7 +83,7 @@ body {
 
 .hero h1{
     font-family:'Playfair Display',serif;
-    font-size: 3.2rem;
+    font-size: 4rem;
     line-height: 0.9;
     font-weight: 800;
     color: var(--green-dark);
@@ -96,34 +94,18 @@ body {
     font-size: 1rem;
     line-height: 1.8;
     color: var(--muted);
-    max-width: 420px;
+    max-width: 380px;
 }
 
-.btn-hero{
-    display:inline-block;
-    width:fit-content;
-    margin-top:20px;
-    padding:14px 30px;
-    border-radius:8px;
-    background:var(--green-dark);
-    color:#fff;
-    text-decoration:none;
-    font-weight:600;
-}
-
-.btn-hero:hover{
-    background:var(--accent);
-    color:#fff;
-}
 .hero-img-col{
-    min-height:320px;
-    overflow:hidden;
+    min-height: 420px;
+    overflow: hidden;
 }
 
 .hero-img-col img{
     width:100%;
     height:100%;
-    object-fit:contain;
+    object-fit:cover;
     object-position:center;
 }
 /* ================= HERO ================= */

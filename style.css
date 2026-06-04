@@ -111,6 +111,10 @@ body {
     font-weight:600;
 }
 
+.btn-hero:hover{
+    background:var(--accent);
+    color:#fff;
+}
 .hero-img-col{
     min-height:400px;
     overflow:hidden;

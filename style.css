@@ -69,58 +69,58 @@ body {
 /* ================= HERO ================= */
 
 .hero{
-  background: var(--green-hero);
+    background: var(--green-hero);
 }
 
 .hero .row{
-  min-height: 420px;
+    min-height: 260px;
 }
 
 .hero-text{
-  padding: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 420px;
+    padding: 25px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .hero h1{
-  font-family:'Playfair Display',serif;
-  font-size: 4rem;
-  line-height: 1;
-  font-weight: 800;
-  color: var(--green-dark);
-  margin-bottom: 20px;
+    font-family:'Playfair Display',serif;
+    font-size: 3.5rem;
+    line-height: 0.95;
+    font-weight: 800;
+    color: var(--green-dark);
+    margin-bottom: 15px;
 }
 
 .hero p{
-  max-width: 420px;
-  font-size: 1rem;
-  line-height: 1.8;
-  color: var(--muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--muted);
+    max-width: 320px;
 }
 
 .btn-hero{
-  display:inline-block;
-  margin-top:20px;
-  background:var(--green-dark);
-  color:white;
-  text-decoration:none;
-  padding:14px 30px;
-  border-radius:8px;
-  font-weight:600;
-  width:fit-content;
+    display:inline-block;
+    margin-top:15px;
+    background:var(--green-dark);
+    color:#fff;
+    padding:12px 24px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
 }
 
 .hero-img-col{
-  height:auto;
-  overflow:visible;
+    height:260px;
+    overflow:hidden;
 }
 
 .hero-img-col img{
-  width:100%;
-  height:auto;
-  object-fit:contain;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
 }
 /* ================= PRODUCTS ================= */
 
@@ -279,23 +279,26 @@ body {
 
 /* ================= MOBILE ================= */
 
-@media (max-width: 768px) {
+@media(max-width:768px){
 
-  .hero-text {
-    text-align: center;
-    padding: 35px 25px;
-  }
+    .hero .row{
+        min-height:auto;
+    }
 
-  .hero-img-col {
-    display: none;
-  }
+    .hero-text{
+        height:auto;
+        text-align:center;
+        padding:30px 20px;
+    }
 
-  .hero p {
-    max-width: 100%;
-  }
+    .hero h1{
+        font-size:2.4rem;
+    }
 
-  /* CENTER BUTTONS */
-  .btn-hero,
+    .btn-hero{
+        margin:15px auto 0;
+    }
+}
   .btn-promo {
     display: block;
     width: fit-content;
